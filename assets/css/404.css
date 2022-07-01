@@ -1,0 +1,33 @@
+.not-found_title{
+    font-family: 'Asap';
+    margin: 0;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    color: var(--secondary-color) ;
+}
+.not-found_button-wrapper{
+    display: flex;
+}
+.not-found_button-wrapper .pc-button{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.not-found_card{
+    margin: 30vh auto;
+    width: 500px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.not-found-box {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - var(--headerHeight) - var(--footerHeight) - var(--footerMarginTop) - var(--entryPadding));
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,309 @@
+.woocommerce-info{
+    background-color: transparent !important;
+    list-style: none;
+
+}
+.cart-discount td,.woocommerce-shipping-totals td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+#coupon_code{
+    width: 200px;
+    height: 45px;
+    border: 1px solid var(--secondary-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.under-order-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.under-order-total button{
+    height: 45px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.under-order-total button:hover rect{
+    fill: var(--secondary-color-hover);
+}
+.remove .close-button{
+    position: inherit;
+}
+
+.cart-empty{
+    position: relative;
+    height: auto;
+    margin-top: 130px;
+    text-align: center;
+    font-family: Asap;
+    font-size: 24px;
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+.not-found_button-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.container{
+    position: relative;
+}
+
+.container .woocommerce-cart-form table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/*border for cart table*/
+.product-quantity, .product-subtotal, .product-quantity, .product-subtotal, .product-price, .product-name, .product-thumbnail, .product-remove {
+    border-bottom: 1px solid var(--secondary-color);
+}
+.product-subtotal{
+    text-align: center!important;
+}
+td.product-remove{
+    width: 45px;
+}
+.remove .close-button{
+    position: inherit;
+}
+
+
+
+/*product thumb*/
+.product-thumbnail-block{
+    width: 206px;
+}
+
+.product-thumbnail-block-div {
+    width: 190px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.product-thumbnail-block a {
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+.product-thumbnail-block a img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*product name*/
+.product-name {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.woocommerce-Price-amount{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+#cart_add_ons{
+    padding-right: 15px;
+    max-width: 795px;
+}
+
+#cart_add_ons h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+#cart_add_ons input{
+    display: none;
+    width: 0;
+    height: 0;
+    /*border-radius: 5px;*/
+    /*position: relative;*/
+    /*-webkit-appearance: initial;*/
+    /*appearance: initial;*/
+    /*flex-shrink: 0;*/
+}
+
+/*#cart_add_ons input:checked{*/
+/*    background: none;*/
+/*}*/
+/*#cart_add_ons input:checked:after{*/
+/*    content: url("../image/general/checkmark.svg") ;*/
+/*    position: absolute;*/
+
+/*}*/
+
+/*!*preloader*!*/
+/*.container .blockOverlay{*/
+/*    background: url('../image/Preloaders/Interwind-1s-64px.svg') top 50% left 50% / 100px no-repeat !important;*/
+/*    position: fixed !important;*/
+/*    cursor: auto !important;*/
+/*}*/
+
+/*.cart-collaterals .cart_totals .blockOverlay{*/
+/*    opacity: 0 !important;*/
+/*}*/
+
+/*cart item row height*/
+.cart tbody tr.cart_item{
+    height: 130px;
+}
+
+/*cart totals*/
+.cart-totals-table{
+    width: 500px;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 20px 0 0;
+    border: 1px solid #000;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cart-totals-table tbody tr{
+    vertical-align: top;
+    height: 40px;
+}
+
+.cart-totals-table tbody tr.order-total{
+    vertical-align: middle;
+    height: 60px;
+}
+
+.cart-totals-table tbody tr.order-total th, .cart-totals-table tbody tr.order-total td{
+    padding-top: 0;
+}
+
+.cart-totals-table tbody tr td {
+    text-align: right !important;
+    padding-right: 35px;
+}
+
+.container .woocommerce-error{
+    height: auto;
+    position: relative;
+    background: transparent !important;
+    margin-bottom: 20px;
+    z-index: unset;
+}
+
+.container .woocommerce-error .close-notice{
+    display: none;
+}
+
+table.shop_table_responsive tbody th{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--secondary-color);
+    padding-left: 35px;
+}
+
+.order-total td, .order-total th{
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    font-size: 24px;
+}
+
+.order-total td .woocommerce-Price-amount{
+    font-size: 24px;
+}
+
+.cart-collaterals {
+    width: fit-content;
+}
+
+.addons-and-coupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.wc-proceed-to-checkout a{
+    display: inline-block;
+    line-height: 45px;
+    border-radius: 6px;
+}
+
+.coupon {
+    display: flex;
+    max-width: 255px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.coupon button {
+    width: 45px;
+    height: 25px;
+    background: url("../image/cart/coupon-button.svg");
+}
+.woocommerce-remove-coupon{
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: url("../image/cart/cross.svg") no-repeat;
+    top: 63px;
+    right: 9px;
+}
+
+
+
+.additional-cart-item-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #AEAEAE;
+    padding-right: 20px;
+}
+
+button[name="apply_coupon"] {
+    height: 45px;
+    cursor: pointer;
+}
+
+/*preloader*/
+.container .blockOverlay{
+    background: url('../image/general/preloader.svg') top 50% left 50% / 167px no-repeat !important;
+    position: fixed !important;
+    cursor: auto !important;
+}
+
+.cart-collaterals .cart_totals .blockOverlay{
+    opacity: 0 !important;
+}

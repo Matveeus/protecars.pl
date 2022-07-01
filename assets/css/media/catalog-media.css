@@ -1,0 +1,184 @@
+@media(max-width: 1500px) {
+    .archive-product-form fieldset .select {
+        max-width: 270px;
+    }
+
+    .entry-content ul.products {
+        grid-column-gap: 2%;
+    }
+    .archive-product-thumb-block {
+        height: 156px;
+    }
+    .container ul.products.columns-4 li.product{
+        min-height: 335px;
+    }
+    /*.archive-product-buy-button{*/
+    /*    width: 160px;*/
+    /*}*/
+}
+@media(max-width: 1300px){
+    .entry-content ul.products {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 4%;
+    }
+}
+@media(max-width: 1280px){
+
+    .archive-product-form h2{
+        font-size: 22px;
+    }
+    .select .select__head{
+        width: 210px;
+    }
+    .archive-product-form fieldset .select{
+        width: auto;
+        min-width: auto;
+    }
+    .archive-product-form .form-buttons-section .submit-button{
+        width: 250px;
+    }
+    .select__head::after{
+        right: 25px;
+    }
+
+}
+@media(max-width: 1160px) {
+    .archive-product-thumb-block {
+        height: 134px;
+    }
+    .container ul.products.columns-4 li.product {
+        min-height: 315px;
+    }
+    .archive-product-buy-button{
+        width: 130px;
+    }
+}
+@media(max-width: 1024px){
+    .demoForm.archive-product-form{
+        height: 360px;
+    }
+    .archive-product-form fieldset .select{
+        width: 43%;
+        margin-top: 15px;
+        max-width: unset;
+    }
+    .select .select__head{
+        width: 100%;
+    }
+    .archive-product-form fieldset{
+        flex-wrap: wrap;
+    }
+    .archive-product-form h2{
+        margin-bottom: 15px;
+    }
+
+}
+@media(max-width: 920px)  {
+    .entry-content ul.products {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 6%;
+    }
+}
+@media(max-width: 900px){
+    .archive-product-form .form-buttons-section .filter-star-desc{
+        width: 135px;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text{
+        font-size: 16px;
+        width: 135px;
+    }
+    .archive-product-form .form-buttons-section .submit-button{
+        width: 210px;
+    }
+    .archive-product-form .form-buttons-section .no-auto-button{
+        margin-left: 30px;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text::before{
+        width: 22px;
+        height: 48px;
+    }
+    .demoForm{
+        margin: unset;
+    }
+    .demoForm.archive-product-form{
+        padding: 27px 25px 21px;
+    }
+    .archive-product-form fieldset .select{
+        width: 48%;
+    }
+}
+@media(max-width: 750px){
+    .demoForm.archive-product-form{
+        height: 400px;
+    }
+    .archive-product-form h2{
+        text-align: center;
+    }
+    .archive-product-form .form-buttons-section{
+        width: 98%;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        padding: unset;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text::before{
+        height: 24px;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text,.archive-product-form .form-buttons-section .filter-star-desc{
+        width: 200px;
+    }
+    .archive-product-form .form-buttons-section .no-auto-button{
+        margin: unset;
+        width: auto;
+        text-align: unset;
+}
+
+}
+@media(max-width: 600px) {
+    .entry-content ul.products {
+        grid-template-columns: unset;
+    }
+    .archive-product-buy-button {
+        width: 160px;
+    }
+    .archive-product-thumb-block {
+        height: 156px;
+    }
+    .container ul.products.columns-4 li.product {
+        min-height: 335px;
+    }
+}
+
+@media(max-width: 550px){
+    .archive-product-form fieldset{
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+    .archive-product-form fieldset .select,.archive-product-form .form-buttons-section{
+        width: 100%;
+    }
+    .demoForm.archive-product-form{
+        height: 600px;
+    }
+    .demoForm.archive-product-form{
+        padding: 27px 18px 21px;
+    }
+    .archive-product-form .form-buttons-section .no-auto-button{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text::before{
+        height: 48px;
+    }
+    .archive-product-form .form-buttons-section .filter-star-desc .filter-star-desc-text, .archive-product-form .form-buttons-section .filter-star-desc{
+        width: 125px;
+    }
+    .archive-product-form .form-buttons-section .submit-button {
+        width: 170px;
+    }
+
+}
+@media(max-width: 373px){
+    .demoForm.archive-product-form {
+        height: 630px;
+    }
+}

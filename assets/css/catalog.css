@@ -1,0 +1,130 @@
+.entry-content ul.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 46px;
+    grid-row-gap: 44px;
+    position: relative;
+    margin-top: 58px;
+}
+
+.container ul.products.columns-4 li.product {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0;
+    padding:10px;
+    min-height: 350px;
+}
+.container ul.products.columns-4 li.product:hover{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+ul.products li.product img {
+    margin: 0 auto;
+}
+
+.woocommerce-loop-product__title {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--secondary-color);
+    white-space: normal;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.archive-product-buy-button{
+    width: 120px;
+    height: 35px;
+    background: var(--main-color);
+    border-radius: 5px;
+    line-height: 35px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-and-buy-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.price-and-buy-block span.price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.archive-product-title-block{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+
+.archive-product-thumb-block {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 13px;
+}
+
+.archive-product-thumb-block img {
+    position: absolute;
+    min-width: auto;
+    min-height: auto;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    object-fit: contain;
+}
+.difficulty-title{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Asap;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+.yith-wcqv-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+
+a.added_to_cart.wc-forward {
+    display: none;
+}
+
+.yith-wcqv-button .blockOverlay {
+    background: url('../image/general/preloader.svg') center center / 120px no-repeat rgb(255, 255, 255) !important;
+    cursor: default !important;
+}

@@ -1,0 +1,9 @@
+
+@media(max-width: 560px){
+    .not-found_title{
+        font-size: 30px;
+    }
+    .not-found_card{
+        width: 100%;
+    }
+}

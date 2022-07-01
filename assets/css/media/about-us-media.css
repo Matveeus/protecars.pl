@@ -1,0 +1,21 @@
+@media(max-width: 1024px){
+    .o-nas-info,.o-nas-email, .o-nas-tel, .o-nas-insta{
+        font-size: 20px;
+    }
+    .o-nas-contacts{
+        width: 100%;
+    }
+
+}
+@media(max-width: 700px){
+    .o-nas-contacts{
+        width: 270px;
+        display: block;
+    }
+    .o-nas-email, .o-nas-tel, .o-nas-insta{
+        justify-content: space-between;
+    }
+    .o-nas-email, .o-nas-tel{
+        margin-bottom: 10px;
+    }
+}

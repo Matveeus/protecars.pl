@@ -1,0 +1,83 @@
+@media(max-width: 1024px){
+    .cart-totals-table{
+        width: 360px;
+    }
+    table.shop_table_responsive tbody th{
+        padding-left: 25px;
+    }
+    .cart-totals-table tbody tr td{
+        padding-right: 25px;
+    }
+    .cart-totals-table tbody tr.order-total{
+        height: 50px;
+    }
+    table.shop_table_responsive tbody th{
+        font-size: 18px;
+    }
+    .woocommerce-remove-coupon{
+        top: 65px;
+        background-size: contain;
+        right: 5px;
+        width: 16px;
+        height: 16px;
+    }
+}
+@media(max-width: 768px){
+    .add-ons-img-block{
+        height: 70px;
+        width: 0;
+        margin: 0 5px 0 20px;
+    }
+    .addons-and-coupon{
+        display: block;
+    }
+    table.shop_table_responsive tbody th{
+        display: revert !important;
+        text-align: left;
+    }
+    table.shop_table_responsive tr td::before{
+        content: none !important;
+    }
+    .shop_table_responsive{
+        border-top: 1px solid #000;
+    }
+    .cart tbody tr.cart_item{
+        height: auto;
+        display: block;
+        border-bottom: 1px solid #000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .product-thumbnail-block{
+        margin: 0 auto;
+    }
+    .product-name,.product-subtotal{
+        text-align: center !important;
+    }
+    .woocommerce-cart-form__cart-item .product-remove{
+        margin-left: auto;
+    }
+    .product-quantity, .product-subtotal, .product-quantity, .product-subtotal, .product-price, .product-name, .product-thumbnail, .product-remove{
+        border: none;
+    }
+    td.product-remove{
+        width: 20px;
+    }
+    .additional-cart-item-name{
+        margin-bottom: 10px;
+    }
+    .fee td,.cart-subtotal td,.order-total td{
+        display: revert !important;
+        text-align: right !important;
+    }
+
+}
+@media(max-width: 550px){
+    .cart-totals-table{
+        width: 100%;
+    }
+    .cart-collaterals{
+        width: auto;
+    }
+}

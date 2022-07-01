@@ -1,0 +1,65 @@
+.o-nas-info{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.after-o-nas-info {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.o-nas-info > li:first-child{
+    margin-bottom: 20px;
+}
+.o-nas-contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.o-nas-email, .o-nas-tel ,.o-nas-insta{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    color: var(--main-color);
+}
+.o-nas-email::before{
+    display: inline-block;
+    margin-right: 20px;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url('../image/about-us_page/email-sign.svg') no-repeat;
+}
+.o-nas-tel::before{
+    display: inline-block;
+    margin-right: 20px;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url('../image/about-us_page/phone-sign.svg') no-repeat;
+}
+.o-nas-insta::before{
+    display: inline-block;
+    margin-right: 20px;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url('../image/general/insta-sign.svg') no-repeat;
+}
